@@ -181,9 +181,13 @@ require (
 )
 
 require (
+	github.com/Microsoft/go-winio v0.4.16 // indirect
 	github.com/PuerkitoBio/purell v1.1.1 // indirect
 	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578 // indirect
-	github.com/ahmetb/gen-crd-api-reference-docs v0.3.0 // indirect
+	github.com/docker/distribution v2.8.0+incompatible // indirect
+	github.com/docker/docker v20.10.18+incompatible // indirect
+	github.com/docker/go-connections v0.4.0 // indirect
+	github.com/docker/go-units v0.4.0 // indirect
 	github.com/emicklei/go-restful v2.9.5+incompatible // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/go-openapi/jsonpointer v0.19.5 // indirect
@@ -198,21 +202,8 @@ require (
 	github.com/mailru/easyjson v0.7.6 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
-	github.com/pelletier/go-toml v1.9.4 // indirect
-	github.com/rs/zerolog v1.26.1 // indirect
-	github.com/russross/blackfriday/v2 v2.1.0 // indirect
-	github.com/spf13/afero v1.8.0 // indirect
-	github.com/spf13/cast v1.4.1 // indirect
-	github.com/spf13/cobra v1.3.0 // indirect
-	github.com/spf13/jwalterweatherman v1.1.0 // indirect
-	github.com/spf13/viper v1.10.1 // indirect
-	github.com/subosito/gotenv v1.2.0 // indirect
-	github.com/vektra/mockery/v2 v2.10.0 // indirect
-	k8s.io/apiextensions-apiserver v0.23.0 // indirect
-	k8s.io/gengo v0.0.0-20210813121822-485abfe95c7c // indirect
-	k8s.io/klog v1.0.0 // indirect
-	sigs.k8s.io/controller-tools v0.6.2 // indirect
-	sigs.k8s.io/kustomize/kyaml v0.10.17 // indirect
+	github.com/opencontainers/go-digest v1.0.0 // indirect
+	github.com/opencontainers/image-spec v1.0.1 // indirect
 )
 
 replace k8s.io/klog/v2 => github.com/Raffo/knolog v0.0.0-20211016155154-e4d5e0cc970a
